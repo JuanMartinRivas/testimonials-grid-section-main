@@ -1,0 +1,37 @@
+main {
+    margin-top: 5.25em;
+
+    .card {
+        border-radius: 3%;
+        overflow: hidden;
+        padding: 1.8em 2.25em;
+
+        .card-head,
+        .card-text {
+            color: #FFF;
+        }
+
+        .card-text {
+            opacity: 70%;
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 1em;
+
+            img {
+                border-radius: 100%;
+            }
+
+            .user-name,
+            .verified-graduate {
+                color: #FFF;
+            }
+
+            .verified-graduate {
+                opacity: 50%;
+            }
+        }
+    }
+}

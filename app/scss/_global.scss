@@ -2,9 +2,8 @@ html {
   font-size: 13px;
 }
 
-h1 {
-  background-color: $very-dark-blackish-blue;
-  color: $light-gray;
+body {
+  background-color: $light-grayish-blue;
   font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
@@ -17,6 +16,8 @@ h1 {
 .row {
   display: flex;
   flex-direction: column;
+  gap: 2em;
+  margin-bottom: 2em;
 
   @media(min-width: 900px) {
     flex-direction: row;
