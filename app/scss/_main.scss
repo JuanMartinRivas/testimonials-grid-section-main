@@ -1,17 +1,35 @@
 main {
     margin-top: 5.25em;
 
+    #col-right {
+        @media(min-width: 900px) {
+            width: 85%;
+        }
+    }
+
     .card {
-        border-radius: 3%;
+        border-radius: 10px;
         overflow: hidden;
         padding: 1.8em 2.25em;
+        box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.1);
 
         .card-head,
         .card-text {
             color: #FFF;
+
+            &--black {
+                color: $very-dark-grayish-blue;
+            }
+        }
+
+        .card-head {
+            margin: 1em 0;
+            font-size: 1.57rem;
+            line-height: 1.25;
         }
 
         .card-text {
+            font-size: 1rem;
             opacity: 70%;
         }
 
@@ -21,12 +39,17 @@ main {
             gap: 1em;
 
             img {
+                width: 3em;
                 border-radius: 100%;
             }
 
             .user-name,
             .verified-graduate {
                 color: #FFF;
+
+                &--black {
+                    color: $very-dark-grayish-blue;
+                }
             }
 
             .verified-graduate {

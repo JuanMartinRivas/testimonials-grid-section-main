@@ -4,21 +4,41 @@ main {
         background-image: url('../../images/bg-pattern-quotation.svg');
         background-repeat: no-repeat;
         background-position: top right 2em;
+
+        img {
+            border: solid 3px #A781D6;
+        }
     }
 
     #jonathan {
         background-color: $very-dark-grayish-blue;
+
+        img {
+            border: solid 3px #d2d6e1;
+        }
     }
 
     #jeanette {
         background-color: #FFF;
+
+        img {
+            border: solid 3px #d2d6e1;
+        }
     }
 
     #patrick {
         background-color: $very-dark-blackish-blue;
+
+        img {
+            border: solid 3px #A781D6;
+        }
     }
 
     #kira {
         background-color: #FFF;
+
+        img {
+            border: solid 3px #d2d6e1;
+        }
     }
 }

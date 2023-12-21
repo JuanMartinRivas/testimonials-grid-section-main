@@ -10,14 +10,21 @@ body {
 .container {
   margin: 0 auto;
   width: 90%;
-  max-width: 1200px;
+  max-width: 360px;
+
+  @media(min-width: 900px) {
+    max-width: 1200px;
+  }
 }
 
 .row {
   display: flex;
   flex-direction: column;
   gap: 2em;
-  margin-bottom: 2em;
+
+  &--margin {
+    margin-bottom: 2em;
+  }
 
   @media(min-width: 900px) {
     flex-direction: row;
