@@ -1,0 +1,1 @@
+{"mappings":"ACEA,QAAQ,GAAG,CAAC","sources":["<anon>","app/js/app.js"],"sourcesContent":["\nconsole.log(\"Parcel is working. Hurray!\");\n\n\n//# sourceMappingURL=index.9799743f.js.map\n","import '../scss/style.scss';\r\n\r\nconsole.log('Parcel is working. Hurray!');"],"names":["console","log"],"version":3,"file":"index.9799743f.js.map"}
