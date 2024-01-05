@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/testimonials-grid-section-yhbOUG0mqR)
 - Live Site URL: [Site](https://juanmartinrivas.github.io/testimonials-grid-section-main/)
 
 ## My process
