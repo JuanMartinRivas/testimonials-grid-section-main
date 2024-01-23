@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"hPUzS":[function(require,module,exports) {
+})({"acUdN":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -226,7 +226,11 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== "undefined") {
     var hostname = getHostname();
     var port = getPort();
-    var protocol = HMR_SECURE || location.protocol == "https:" && !/localhost|127.0.0.1|0.0.0.0/.test(hostname) ? "wss" : "ws";
+    var protocol = HMR_SECURE || location.protocol == "https:" && ![
+        "localhost",
+        "127.0.0.1",
+        "0.0.0.0"
+    ].includes(hostname) ? "wss" : "ws";
     var ws;
     try {
         ws = new WebSocket(protocol + "://" + hostname + (port ? ":" + port : "") + "/");
@@ -578,6 +582,6 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 var _styleScss = require("../scss/style.scss");
 console.log("Parcel is working. Hurray!");
 
-},{"../scss/style.scss":"1zc1D"}],"1zc1D":[function() {},{}]},["hPUzS","lKGVG"], "lKGVG", "parcelRequire8d52")
+},{"../scss/style.scss":"1zc1D"}],"1zc1D":[function() {},{}]},["acUdN","lKGVG"], "lKGVG", "parcelRequire8d52")
 
 //# sourceMappingURL=index.193744e8.js.map
