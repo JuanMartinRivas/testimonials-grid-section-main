@@ -13,6 +13,7 @@ body {
   max-width: 360px;
 
   @media(min-width: 900px) {
+    width: 85%;
     max-width: 1200px;
   }
 }
@@ -28,5 +29,6 @@ body {
 
   @media(min-width: 900px) {
     flex-direction: row;
+    gap: 2.5em;
   }
 }
